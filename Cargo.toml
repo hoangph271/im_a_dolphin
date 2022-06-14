@@ -1,0 +1,12 @@
+[package]
+name = "im_a_dolphin_not_a_virus_at_all"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+whoami = "1.2.1"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
